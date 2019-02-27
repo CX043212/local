@@ -1,6 +1,8 @@
 <template>
 	<div class="header">
-		
+		<div class="search">
+			
+		</div>
 	</div>
 </template>
 
