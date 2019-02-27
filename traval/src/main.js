@@ -5,6 +5,8 @@ import './common/js/flexble';
 import './assets/iconfont/iconfont.css';
 import router from './router';
 import store from "./store";
+import { Search } from 'mint-ui';
+Vue.component(Search.name, Search);
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */

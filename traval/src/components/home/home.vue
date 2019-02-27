@@ -1,19 +1,23 @@
 <template>
     <div>
-        <h2>home111</h2>
+		<Header-com/>
     </div>
 </template>
 <script>
-import Vuex from "vuex";
+
+import Header from "./components/header";
 export default {
-    created(){
-        this.handleHomeData();
-    },
-    methods:{
-        ...Vuex.mapActions({
-            handleHomeData:"home/handleHomeData",
-        })
-    },
+	components:{
+		"Header-com":Header
+	},
+//     created(){
+//         this.handleHomeData();
+//     },
+//     methods:{
+//         ...Vuex.mapActions({
+//             handleHomeData:"home/handleHomeData",
+//         })
+//     },
 }
 </script>
 <style scoped lang="scss">

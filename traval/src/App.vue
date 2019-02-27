@@ -6,6 +6,7 @@
 </template>
 
 <script>
+	import './components/home/home.vue'
 export default {
   name: 'App',
   
